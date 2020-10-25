@@ -28,7 +28,7 @@
 ;configVisible=false
 ;configLeft=-1
 ;configTop=-1
-;configSave=file
+;configSave=webstorage
 ;configThumbnail=true
 ;configThumbnailQuality=middle
 ;configSaveSlotNum=30
