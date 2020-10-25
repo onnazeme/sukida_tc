@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/目隠し黒.png"  ]
+[preload  storage="./data/bgimage/教室雨会議.png"  ]
+[preload  storage="./data/fgimage/default/目隠し黒.png"  ]
+[preload  storage="./data/bgimage/教室雨試着.png"  ]
+[return]

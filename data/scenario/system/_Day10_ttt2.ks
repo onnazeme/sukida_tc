@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/教室晴れHR.png"  ]
+[preload  storage="./data/bgimage/廊下晴れモブ.png"  ]
+[preload  storage="./data/fgimage/default/目隠し黒.png"  ]
+[preload  storage="./data/bgimage/道晴れ.png"  ]
+[preload  storage="./data/bgimage/どこここ.png"  ]
+[return]
