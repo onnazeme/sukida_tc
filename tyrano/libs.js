@@ -315,8 +315,8 @@
         */
         
         $.ajax({
-            url: file_path + "?" + Math.floor(Math.random() * 1000000),
-            cache: false,
+            url: file_path,// + "?" + Math.floor(Math.random() * 1000000),
+            //cache: false,
             success: function(text){
                 order_str = text;
                 callback(order_str);
