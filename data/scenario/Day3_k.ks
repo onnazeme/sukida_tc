@@ -12,7 +12,7 @@
 
 [tb_image_show  time="1000"  storage="/default/本棚.png"  ]
 [glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《我是異世界最強的龍騎士老太婆，有什麼問題要問我嗎？》"  target="*1"  x="300"  y="220"  width="670"  height="20"  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
-[glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《百角館殺人》"  target="*2"  x="540"  y="270"  width="400"  height=""  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
+[glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《殺人百角館》"  target="*2"  x="540"  y="270"  width="400"  height=""  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《LOVE&nbsp;SHARK》"  target="*3"  x="570"  y="320"  width="340"  height=""  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《世界幼蟲圖鑑》"  target="*4"  x="600"  y="370"  width="340"  height=""  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [s  ]
