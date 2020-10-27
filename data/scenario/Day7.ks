@@ -6,7 +6,7 @@
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="hiruyasumiwadokoniikoutekinaBGM.ogg"  fadein="false"  ]
-[playse  volume="100"  time="1000"  buf="1"  fadein="true"  loop="true"  storage="rain04小.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  fadein="true"  loop="true"  storage="rain04small.ogg"  ]
 [tb_start_tyrano_code]
 @clearstack
 @layopt layer=0 visible=true

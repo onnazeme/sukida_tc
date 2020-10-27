@@ -10,7 +10,7 @@
 [_tb_end_tyrano_code]
 
 [playbgm  volume="100"  time="1000"  loop="true"  storage="hiruyasumiwadokoniikoutekinaBGM.ogg"  fadein="false"  ]
-[playse  volume="100"  time="1000"  buf="4"  fadein="true"  loop="true"  storage="rain04小.ogg"  ]
+[playse  volume="100"  time="1000"  buf="4"  fadein="true"  loop="true"  storage="rain04small.ogg"  ]
 [tb_start_tyrano_code]
 
 @layopt layer=0 visible=true
