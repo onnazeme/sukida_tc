@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/_Zenza.ks]
 [l]
 [cm  ]
-[tb_hide_message_window  ]
+;[tb_hide_message_window  ]
 [playse  volume="100"  time="1000"  buf="4"  storage="rain04small.ogg"  fadein="true"  loop="true"  ]
 [playse  volume="70"  time="1000"  buf="1"  loop="true"  fadein="true"  storage="Clock-Alarm02-1(Loop).ogg"  ]
 [tb_start_tyrano_code]
