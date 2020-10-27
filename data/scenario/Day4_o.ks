@@ -2,7 +2,7 @@
 
 *start
 
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [playse  volume="60"  time="1000"  buf="2"  storage="room_door_C.ogg"  ]
@@ -16,7 +16,7 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="70"  time="1000"  buf="0"  storage="walk-asphalt2.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="道雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="michiame.png"  ]
 [tb_start_text mode=4 ]
 …………[p]
 
@@ -45,7 +45,7 @@
 #
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/おもち.png"  width="964"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/omochi.png"  width="964"  height="640"  ]
 [tb_eval  exp="f.onodera+=1"  name="onodera"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=4 ]
 [chara_part name=ono2 eye=1 brow=1 mouth=3 ase=none]

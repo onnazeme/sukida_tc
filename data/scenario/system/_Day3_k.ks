@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/図書室晴れ.png"  ]
-[preload  storage="./data/fgimage//default/本棚.png"  ]
-[preload  storage="./data/fgimage//default/本棚2.png"  ]
+[preload  storage="./data/bgimage/toshoshitsuhare.png"  ]
+[preload  storage="./data/fgimage//default/hondana.png"  ]
+[preload  storage="./data/fgimage//default/hondana2.png"  ]
 [return]

@@ -20,7 +20,7 @@ tf.num_tere=0;
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="200"  storage="default/Edit桐島2.png"  width="960"  height="640"  ]
+[tb_image_show  time="200"  storage="default/EditKirishima2.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide name=kiri2 time=100]
 [chara_part_reset name=kiri2]

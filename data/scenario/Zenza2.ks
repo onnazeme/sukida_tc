@@ -4,7 +4,7 @@
 
 [tb_show_message_window  ]
 [playse  volume="70"  time="1000"  buf="4"  storage="Japanese_School_Bell02-03.ogg"  ]
-[bg  time="1000"  method="crossfade"  cross="true"  storage="前座1限終わり.png"  ]
+[bg  time="1000"  method="crossfade"  cross="true"  storage="zenza1end.png"  ]
 [tb_image_hide  time="1000"  ]
 [playse  volume="40"  time="500"  buf="1"  fadein="true"  storage="City_Ambi-Street01-2_re.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
@@ -17,7 +17,7 @@
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [playse  volume="100"  time="500"  buf="2"  fadein="true"  storage="VSQSE_0608_school_hallway_2.ogg"  loop="true"  ]
 [playse  volume="100"  time="500"  buf="3"  fadein="true"  storage="VSQSE_0609_school_hallway_3.ogg"  loop="true"  ]
-[bg  time="1000"  method="crossfade"  storage="廊下雨モブ.png"  cross="true"  ]
+[bg  time="1000"  method="crossfade"  storage="roukaamemobu.png"  cross="true"  ]
 [tb_start_text mode=4 ]
 #
 
@@ -34,7 +34,7 @@
 [playse  volume="80"  time="1000"  buf="0"  storage="down1.ogg"  ]
 [stopse  time="500"  buf="3"  ]
 [stopse  time="500"  buf="2"  ]
-[tb_image_show  time="800"  storage="/default/目隠し白.png"  name="img_16"  ]
+[tb_image_show  time="800"  storage="/default/mekakushishiro.png"  name="img_16"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -129,7 +129,7 @@
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  clear="false"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_39"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_39"  ]
 [tb_start_tyrano_code]
 [chara_hide_ono2]
 [_tb_end_tyrano_code]
@@ -137,7 +137,7 @@
 [stopse  time="500"  buf="1"  ]
 [stopse  time="500"  buf="2"  ]
 [playse  volume="70"  time="900"  buf="1"  storage="Japanese_School_Bell02-03.ogg"  ]
-[bg  time="0"  method="crossfade"  storage="渡り廊下雨.png"  cross="true"  ]
+[bg  time="0"  method="crossfade"  storage="watariroukaame.png"  cross="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=3000]
 [_tb_end_tyrano_code]
@@ -151,12 +151,12 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  clear="false"  ]
-[bg  time="1000"  method="crossfade"  storage="図書室雨.png"  cross="true"  ]
+[bg  time="1000"  method="crossfade"  storage="toshoshitsuame.png"  cross="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="1000"  storage="default/本棚.png"  width="964"  height="640"  name="img_51"  x=""  y=""  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/hondana.png"  width="964"  height="640"  name="img_51"  x=""  y=""  _clickable_img=""  ]
 [tb_start_text mode=4 ]
 …………[p]
 
@@ -166,7 +166,7 @@
 [_tb_end_text]
 
 [playse  volume="80"  time="1000"  buf="0"  storage="down1.ogg"  ]
-[tb_image_show  time="800"  storage="/default/目隠し白.png"  name="img_54"  ]
+[tb_image_show  time="800"  storage="/default/mekakushishiro.png"  name="img_54"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -235,7 +235,7 @@
 
 [playse  volume="60"  time="1000"  buf="0"  storage="clothes-rustling-1.ogg"  ]
 [stopse  time="800"  buf="0"  fadeout="true"  ]
-[tb_image_show  time="500"  storage="/default/ノート.png"  ]
+[tb_image_show  time="500"  storage="/default/note.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1500]
 [_tb_end_tyrano_code]
@@ -271,13 +271,13 @@
 [_tb_end_tyrano_code]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  cross="true"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  cross="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
 [playse  volume="70"  time="1000"  buf="4"  storage="Japanese_School_Bell02-03.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="前座HR1.png"  ]
+[bg  time="1000"  method="crossfade"  storage="zenzaHR1.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  fadein="true"  storage="City_Ambi-Street01-2_re.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
 #班導
@@ -311,7 +311,7 @@
 
 [_tb_end_text]
 
-[bg  time="0"  method="crossfade"  storage="前座HR2.png"  ]
+[bg  time="0"  method="crossfade"  storage="zenzaHR2.png"  ]
 [tb_start_text mode=4 ]
 #班長
 耶！！沒有白費我去其他班級牽線！[r]

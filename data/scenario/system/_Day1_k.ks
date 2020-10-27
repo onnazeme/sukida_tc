@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/渡り廊下雨.png"  ]
-[preload  storage="./data/fgimage//default/書道2.png"  ]
-[preload  storage="./data/fgimage//default/書道.png"  ]
+[preload  storage="./data/bgimage/watariroukaame.png"  ]
+[preload  storage="./data/fgimage//default/shodou2.png"  ]
+[preload  storage="./data/fgimage//default/shodou.png"  ]
 [return]

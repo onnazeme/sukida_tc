@@ -3,7 +3,7 @@
 *start
 
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="文化祭1.png"  ]
+[bg  time="1000"  method="crossfade"  storage="bunkasai1.png"  ]
 [tb_image_hide  time="1000"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
@@ -17,7 +17,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_6"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_6"  ]
 [tb_start_text mode=1 ]
 …………[p]
 [_tb_end_text]
@@ -132,16 +132,16 @@
 
 [_tb_end_text]
 
-[bg  time="0"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="0"  method="crossfade"  storage="mekakushikuro.png"  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_29"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_29"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
 [tb_image_hide  time="0"  ]
-[bg  time="1000"  method="crossfade"  storage="保健室.png"  ]
+[bg  time="1000"  method="crossfade"  storage="hokenshitsu.png"  ]
 [tb_eval  exp="f.hoken+=1"  name="hoken"  cmd="+="  op="t"  val="1"  ]
 [tb_start_text mode=4 ]
 [chara_show name=tda top=20 left=220 width=457 height=718 time=1000]
@@ -180,7 +180,7 @@
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="Day10_ttt.ks"  target="*none"  cond="f.hoken!=4"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide_tda]
 [s_wait time=1000]

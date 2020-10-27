@@ -3,7 +3,7 @@
 *start
 
 [tb_show_message_window  ]
-[tb_image_show  time="1000"  storage="/default/目隠し黒.png"  ]
+[tb_image_show  time="1000"  storage="/default/mekakushikuro.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
@@ -135,7 +135,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_18"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_18"  ]
 *D3shift
 
 [tb_start_tyrano_code]
@@ -193,7 +193,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide_kiri2]
 [s_wait time=1000]
@@ -222,7 +222,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [jump  storage="Day10_tt.ks"  target="*start"  cond="f.tsuda>4"  ]
 [jump  storage="Day10_t.ks"  target="*shift"  ]
 *friend
@@ -248,7 +248,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide_ono]
 [chara_hide_tda]

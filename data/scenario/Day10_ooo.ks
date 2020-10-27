@@ -3,12 +3,12 @@
 *start
 
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="文化祭1.png"  ]
+[bg  time="1000"  method="crossfade"  storage="bunkasai1.png"  ]
 [tb_start_tyrano_code]
 [chara_part name=ono2 mouth=3 L=2]
 [chara_show name=ono2 top=-5 left=20 time=0]
-[preload storage="data/bgimage/目隠し黒.png"]
-[preload storage="data/bgimage/体育館演劇部.png"]
+[preload storage="data/bgimage/mekakushikuro.png"]
+[preload storage="data/bgimage/taiikukanengekibu.png"]
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="1000"  buf="0"  fadein="true"  storage="City_Ambi-Street01-2_re.ogg"  loop="true"  ]
@@ -42,7 +42,7 @@
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
 [tb_start_tyrano_code]
 @layopt layer=1 visible=true
-[image storage="../bgimage/目隠し黒.png" name=1 layer=1 zindex=1 time=1000]
+[image storage="../bgimage/mekakushikuro.png" name=1 layer=1 zindex=1 time=1000]
 [_tb_end_tyrano_code]
 
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
@@ -74,7 +74,7 @@
 
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [tb_start_tyrano_code]
-[image storage="../bgimage/体育館演劇部.png" name=2 layer=1 zindex=5 time=1000]
+[image storage="../bgimage/taiikukanengekibu.png" name=2 layer=1 zindex=5 time=1000]
 
 [_tb_end_tyrano_code]
 
@@ -125,7 +125,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_39"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_39"  ]
 [stopse  time="1000"  buf="2"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_start_tyrano_code]
@@ -172,12 +172,12 @@
 
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  ]
 [stopse  time="1000"  buf="2"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="渡り廊下晴れ2.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukahare2.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=500]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="60"  time="200"  loop="true"  storage="出先で.ogg"  fadein="false"  ]
+[playbgm  volume="60"  time="200"  loop="true"  storage="desakide.ogg"  fadein="false"  ]
 [tb_start_text mode=4 ]
 #小野寺
 ………………[p]
@@ -319,7 +319,7 @@
 [tb_start_tyrano_code]
 [fadeoutbgm time=1000]
 @layopt layer=1 visible=true
-[image storage="../bgimage/目隠し黒.png" layer=1 time=1000]
+[image storage="../bgimage/mekakushikuro.png" layer=1 time=1000]
 [s_wait time=500]
 [image storage="../bgimage/ono6-1.png" layer=1 time=1000]
 [s_wait time=2000]

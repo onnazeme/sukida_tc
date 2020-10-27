@@ -1,2 +1,2 @@
-[preload  storage="./data/bgimage/BGM背景.png"  ]
+[preload  storage="./data/bgimage/BGMhaikei.png"  ]
 [return]

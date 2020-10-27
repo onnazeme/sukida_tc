@@ -2,11 +2,11 @@
 
 *start
 
-[bg  time="100"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="100"  method="crossfade"  storage="mekakushikuro.png"  ]
 
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="昼休みはどこに行こう的なBGM.ogg"  fadein="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="hiruyasumiwadokoniikoutekinaBGM.ogg"  fadein="false"  ]
 [tb_start_tyrano_code]
 @clearstack
 @layopt layer=0 visible=true
@@ -21,7 +21,7 @@
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 [freeimage layer="2"]
-[image layer="2" visible=true time="0" folder="image" storage="日付下敷き.png"  width="311"  height="66"  x="-130"  y="-8"]
+[image layer="2" visible=true time="0" folder="image" storage="hizukeshitajiki.png"  width="311"  height="66"  x="-130"  y="-8"]
 [ptext layer="2" x="22"  y="11"  size="20"  color="0xffffff"  time="0"  text="6月21日(四)"  anim="false"]
 
 
@@ -31,7 +31,7 @@
 [if exp="f.kasa==1"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="渡り廊下晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukahare.png"  ]
 [tb_start_text mode=4 ]
 [s_wait time=1000]
 #？？？
@@ -109,13 +109,13 @@
 #
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide_ono]
 [endif]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="教室晴れモブ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomharemobu.png"  ]
 [tb_image_hide  time="1000"  ]
 *normal
 

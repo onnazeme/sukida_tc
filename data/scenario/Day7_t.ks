@@ -5,9 +5,9 @@
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Break_time_bossa.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="教室雨会議.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomamekaigi.png"  ]
 [quake  time="210"  count="3"  hmax="10"  wait="false"  ]
 [tb_start_text mode=4 ]
 #班長
@@ -28,7 +28,7 @@
 #
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [playse  volume="80"  time="1000"  buf="1"  storage="clothes-rustling-1.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
@@ -37,7 +37,7 @@
 [chara_show name="tda" top=20 left=220 time=0]
 [_tb_end_tyrano_code]
 
-[bg  time="0"  method="crossfade"  storage="教室雨試着.png"  ]
+[bg  time="0"  method="crossfade"  storage="classroomameshichaku.png"  ]
 [playse  volume="80"  time="1000"  buf="0"  storage="clothes-rustling-2.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]

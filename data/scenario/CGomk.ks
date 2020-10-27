@@ -3,7 +3,7 @@
 [tb_clear_images]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="0"  storage="/default/EXTRA文字.png"  ]
+[tb_image_show  time="0"  storage="/default/EXTRAmoji.png"  ]
 [tb_start_tyrano_code]
 [button graphic="back-1.png" x=87 y=550 storage="title_screen.ks" target=*title enterimg="back-2.png"]
 
@@ -35,11 +35,11 @@
 
 *start
 
-[tb_cg_image_button  graphic="おまけ1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="60"  y="50"  _tb_parts_type="cg_image_button"  id="omk1"  ]
+[tb_cg_image_button  graphic="omake1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="60"  y="50"  _tb_parts_type="cg_image_button"  id="omk1"  ]
 
-[tb_cg_image_button  graphic="本田2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="240"  y="50"  _tb_parts_type="cg_image_button"  id="omk2"   ]
+[tb_cg_image_button  graphic="honda2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="240"  y="50"  _tb_parts_type="cg_image_button"  id="omk2"   ]
 
-[tb_cg_image_button  graphic="コンプ.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="420"  y="50"  _tb_parts_type="cg_image_button"  id="omk3"   ]
+[tb_cg_image_button  graphic="konpu.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="420"  y="50"  _tb_parts_type="cg_image_button"  id="omk3"   ]
 
 [tb_start_tyrano_code]
 [button graphic="hintbox.png" target=*click enterimg="hintbox_1.png" x=52 y=162 hint="解放條件為「帶四個人到保健室」"]

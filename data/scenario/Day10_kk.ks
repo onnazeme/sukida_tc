@@ -26,7 +26,7 @@
 
 [playse  volume="60"  time="1000"  buf="2"  storage="class_door2.ogg"  fadein="false"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="文芸部.png"  ]
+[bg  time="1000"  method="crossfade"  storage="bungeibu.png"  ]
 [tb_start_text mode=4 ]
 [chara_part name=kiri2 eye=2 mouth=3]
 #桐島
@@ -98,7 +98,7 @@
 #
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_21"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_21"  ]
 [tb_start_tyrano_code]
 [free layer=1 name=2]
 [_tb_end_tyrano_code]

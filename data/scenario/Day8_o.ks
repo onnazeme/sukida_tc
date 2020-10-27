@@ -4,7 +4,7 @@
 
 [jump  storage="Day8_o.ks"  target="*end"  cond="f.onodera<3"  ]
 [tb_show_message_window  ]
-[bg  time="100"  method="crossfade"  storage="軒下晴れ.png"  ]
+[bg  time="100"  method="crossfade"  storage="nokishitahare.png"  ]
 [tb_start_tyrano_code]
 [chara_show name=ono2 top=-5 left=20 time=0]
 [chara_part name=ono2 mouth=3]

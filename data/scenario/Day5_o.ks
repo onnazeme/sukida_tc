@@ -4,7 +4,7 @@
 
 [tb_show_message_window  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
-[bg  time="1000"  method="crossfade"  storage="渡り廊下晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukahare.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [chara_part name=ono2 L=none R=none LR=1]

@@ -3,14 +3,14 @@
 *first
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="食堂晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="shokudouhare.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
 [tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[tb_image_show  time="1000"  storage="/default/購買.png"  ]
+[tb_image_show  time="1000"  storage="/default/koubai.png"  ]
 [glink  color="ts02"  storage="Day2_k.ks"  size="20"  text="買抹茶布丁"  x="640"  y="220"  width="270"  height=""  _clickable_img=""  target="*mat"  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day2_k.ks"  size="20"  text="買炒麵麵包"  x="670"  y="270"  width="270"  height=""  _clickable_img=""  target="*yaki"  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day2_k.ks"  size="20"  text="買特大號泡麵"  x="700"  y="320"  width="270"  height=""  _clickable_img=""  target="*cap"  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
@@ -29,7 +29,7 @@
 [tb_eval  exp="f.matcha+=3"  name="matcha"  cmd="+="  op="t"  val="3"  val_2="undefined"  ]
 *common
 
-[playse  volume="40"  time="1000"  buf="2"  storage="レジ音.ogg"  ]
+[playse  volume="40"  time="1000"  buf="2"  storage="rejion.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 #

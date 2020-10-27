@@ -1,3 +1,3 @@
-[preload  storage="./data/bgimage/目隠し黒.png"  ]
-[preload  storage="./data/bgimage/自室2.png"  ]
+[preload  storage="./data/bgimage/mekakushikuro.png"  ]
+[preload  storage="./data/bgimage/myroom2.png"  ]
 [return]

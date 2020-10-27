@@ -26,8 +26,8 @@
 
 [playse  volume="60"  time="1000"  buf="2"  storage="class_door2.ogg"  fadein="false"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
-[bg  time="0"  method="crossfade"  storage="園芸部.png"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
+[bg  time="0"  method="crossfade"  storage="engeibu.png"  ]
 [tb_start_text mode=4 ]
 [s_wait time=1000]
 …………[p]
@@ -99,7 +99,7 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [chara_hide_ono2]

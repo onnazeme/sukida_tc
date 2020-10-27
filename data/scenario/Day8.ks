@@ -3,10 +3,10 @@
 *start
 
 [stopse  time="0"  buf="3"  fadeout="false"  ]
-[bg  time="100"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="100"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="200"  loop="true"  storage="昼休みはどこに行こう的なBGM.ogg"  fadein="false"  ]
+[playbgm  volume="100"  time="200"  loop="true"  storage="hiruyasumiwadokoniikoutekinaBGM.ogg"  fadein="false"  ]
 [playse  volume="70"  time="1000"  buf="1"  storage="Japanese_School_Bell02-03.ogg"  loop="false"  ]
 [tb_start_tyrano_code]
 @clearstack
@@ -22,12 +22,12 @@
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 [freeimage layer="2"]
-[image layer="2" visible=true time="0" folder="image" storage="日付下敷き.png"  width="311"  height="66"  x="-130"  y="-8"]
+[image layer="2" visible=true time="0" folder="image" storage="hizukeshitajiki.png"  width="311"  height="66"  x="-130"  y="-8"]
 [ptext layer="2" x="22"  y="11"  size="20"  color="0xffffff"  time="0"  text="6月28日(四)"  anim="false"]
 
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="教室晴れHR.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomhareHR.png"  ]
 [tb_start_text mode=4 ]
 #班導
 明天開始就是文化祭了！[p]

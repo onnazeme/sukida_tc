@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/廊下晴れモブ.png"  ]
-[preload  storage="./data/fgimage/default/目隠し黒.png"  ]
-[preload  storage="./data/bgimage/保健室.png"  ]
+[preload  storage="./data/bgimage/roukaharemobu.png"  ]
+[preload  storage="./data/fgimage/default/mekakushikuro.png"  ]
+[preload  storage="./data/bgimage/hokenshitsu.png"  ]
 [return]

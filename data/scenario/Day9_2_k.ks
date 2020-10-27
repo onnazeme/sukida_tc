@@ -3,7 +3,7 @@
 *start
 
 [tb_show_message_window  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_8"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_8"  ]
 [tb_start_tyrano_code]
 [chara_show name=kiri2 top=30 left=240 time=0]
 [_tb_end_tyrano_code]
@@ -20,7 +20,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  fadein="false"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_8"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_8"  ]
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=4 ]
 #桐島
@@ -78,7 +78,7 @@
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  fadein="false"  ]
 [tb_eval  exp="f.kirishima+=1"  name="kirishima"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-[tb_image_show  time="1000"  storage="/default/目隠し黒.png"  ]
+[tb_image_show  time="1000"  storage="/default/mekakushikuro.png"  ]
 [tb_start_text mode=4 ]
 …………[p]
 (待了很久。)[p]

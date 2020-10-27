@@ -4,7 +4,7 @@
 
 [tb_show_message_window  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
-[bg  time="1000"  method="crossfade"  storage="軒下晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="nokishitahare.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
@@ -21,12 +21,12 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="/default/目隠し黒.png"  ]
+[tb_image_show  time="1000"  storage="/default/mekakushikuro.png"  ]
 [tb_start_tyrano_code]
 [chara_part name=ono2 mouth=3]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="道晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="michihare.png"  ]
 [tb_image_hide  time="1000"  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
 [tb_start_text mode=4 ]

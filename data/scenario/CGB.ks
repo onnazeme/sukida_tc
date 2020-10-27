@@ -3,7 +3,7 @@
 [tb_clear_images]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="0"  storage="/default/EXTRA文字.png"  ]
+[tb_image_show  time="0"  storage="/default/EXTRAmoji.png"  ]
 [tb_start_tyrano_code]
 [button graphic="back-1.png" x=87 y=550 storage="title_screen.ks" target=*title enterimg="back-2.png"]
 
@@ -37,8 +37,8 @@
 
 [tb_cg_image_button  graphic="B2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="240"  y="50"  _tb_parts_type="cg_image_button"  id="B2"   ]
 
-[tb_cg_image_button  graphic="追加B1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="420"  y="50"  _tb_parts_type="cg_image_button"  id="B4"   ]
+[tb_cg_image_button  graphic="tsuikaB1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="420"  y="50"  _tb_parts_type="cg_image_button"  id="B4"   ]
 
-[tb_cg_image_button  graphic="追加B2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="60"  y="192"  _tb_parts_type="cg_image_button"  id="B5"  ]
+[tb_cg_image_button  graphic="tsuikaB2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="60"  y="192"  _tb_parts_type="cg_image_button"  id="B5"  ]
 
 [s  ]

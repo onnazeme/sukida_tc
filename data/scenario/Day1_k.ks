@@ -5,7 +5,7 @@
 [tb_show_message_window  ]
 [stopse  time="1000"  buf="4"  fadeout="true"  ]
 [playse  volume="60"  time="1000"  buf="0"  storage="walk-school1.ogg"  clear="false"  ]
-[bg  time="1000"  method="crossfade"  storage="渡り廊下雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukaame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -14,13 +14,13 @@
 (走廊上有展出書法社的作品。)[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="/default/書道2.png"  ]
+[tb_image_show  time="1000"  storage="/default/shodou2.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [freeimage layer="1" time=1000]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="1000"  storage="/default/書道.png"  name="img_6"  ]
+[tb_image_show  time="1000"  storage="/default/shodou.png"  name="img_6"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [freeimage layer="1" time=1000]
@@ -51,7 +51,7 @@
 [_tb_end_text]
 
 [tb_eval  exp="f.syodo=1"  name="syodo"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
-[tb_image_show  time="1000"  storage="/default/書道2.png"  ]
+[tb_image_show  time="1000"  storage="/default/shodou2.png"  ]
 [glink  color="ts02"  storage="Day1_k.ks"  size="20"  text="稱讚他"  x="640"  y="220"  width="270"  height="20"  _clickable_img=""  target="*presure"  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day1_k.ks"  size="20"  text="問他上面寫什麼"  x="670"  y="270"  width="270"  height="20"  _clickable_img=""  target="*WTH"  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [s  ]

@@ -2,7 +2,7 @@
 
 *start
 
-[bg  time="0"  method="crossfade"  storage="文化祭1.png"  ]
+[bg  time="0"  method="crossfade"  storage="bunkasai1.png"  ]
 [stopse  time="500"  buf="1"  fadeout="true"  ]
 [tb_image_hide  time="0"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

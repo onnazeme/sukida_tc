@@ -2,7 +2,7 @@
 
 *start
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_1"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_1"  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 [chara_show name="tda" top=20  left=220 time=0]
@@ -18,7 +18,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_7"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_7"  ]
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=4 ]
 [chara_part name="tda" mouth=2 brow=3 L=2 R=2]
@@ -61,7 +61,7 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="40"  time="1000"  buf="3"  storage="dash-asphalt1.ogg"  ]
-[tb_image_show  time="1000"  storage="/default/目隠し黒.png"  ]
+[tb_image_show  time="1000"  storage="/default/mekakushikuro.png"  ]
 [tb_start_text mode=4 ]
 [chara_hide_tda]
 ………………[p]

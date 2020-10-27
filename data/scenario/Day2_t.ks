@@ -4,8 +4,8 @@
 
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
-[bg  time="1000"  method="crossfade"  storage="教室晴れ会議.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomharekaigi.png"  ]
 [playbgm  volume="100"  time="200"  loop="true"  storage="Break_time_bossa.ogg"  fadein="false"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
@@ -116,7 +116,7 @@
 
 *common
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_text mode=4 ]
 #
 [chara_hide_tda]

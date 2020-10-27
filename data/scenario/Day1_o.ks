@@ -11,7 +11,7 @@
 
 [playse  volume="100"  time="1000"  buf="2"  fadein="true"  storage="rain04.ogg"  loop="true"  ]
 [stopse  time="1000"  buf="4"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="軒下雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="nokishitaame.png"  ]
 [tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]

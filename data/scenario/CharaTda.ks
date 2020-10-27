@@ -5,7 +5,7 @@
 [tb_clear_images]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="200"  storage="/default/Edit津田1.png"  ]
+[tb_image_show  time="200"  storage="/default/EditTsuda1.png"  ]
 [tb_start_tyrano_code]
 [freeimage layer=2]
 [chara_hide name=tda2 time=100]

@@ -5,7 +5,7 @@
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [playse  volume="50"  time="1000"  buf="2"  storage="room_door_C.ogg"  clear="false"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [preload storage="data/bgimage/tda3-1.png"]
@@ -20,7 +20,7 @@
 
 [stopse  time="500"  buf="1"  fadeout="true"  ]
 [playse  volume="60"  time="500"  buf="2"  storage="walk-asphalt2.ogg"  fadein="true"  ]
-[bg  time="1000"  method="crossfade"  storage="教室Day4.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomDay4.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -42,7 +42,7 @@
 #
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_15"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_15"  ]
 [tb_start_text mode=4 ]
 …………[p]
 [chara_hide name="tda" time=0]

@@ -2,7 +2,7 @@
 
 *start
 
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [playse  volume="60"  time="1000"  buf="2"  storage="room_door_C.ogg"  ]
@@ -16,13 +16,13 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="70"  time="1000"  buf="3"  storage="walk-asphalt2.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="駅雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="ekiame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
 [stopse  time="1000"  buf="4"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [playse  volume="80"  time="1000"  buf="2"  storage="train-in-motion-inside-train-1.ogg"  loop="true"  fadein="true"  ]
@@ -30,7 +30,7 @@
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="電車内雨png.png"  ]
+[bg  time="1000"  method="crossfade"  storage="denshanaiame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 …………[p]
@@ -74,7 +74,7 @@
 [s_wait time=500]
 [_tb_end_tyrano_code]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="ドア・ドンドン叩く01.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="doadondontataku01.ogg"  ]
 [tb_hide_message_window  ]
 [tb_start_tyrano_code]
 @layopt layer=1 visible=true
@@ -111,7 +111,7 @@
 #
 [_tb_end_tyrano_code]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="ドア・ドンドン叩く01.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="doadondontataku01.ogg"  ]
 [tb_cg  id="kiri2"  ]
 [tb_start_tyrano_code]
 @layopt layer=1 visible=true

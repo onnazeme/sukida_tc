@@ -7,7 +7,7 @@
 [_tb_end_tyrano_code]
 
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="教室晴れHR.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomhareHR.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #班導
@@ -37,7 +37,7 @@
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="廊下晴れモブ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="roukaharemobu.png"  ]
 [tb_start_text mode=4 ]
 [s_wait time=500]
 [chara_show name=tda top=20 left=220 time=1000]
@@ -68,7 +68,7 @@
 [chara_hide name=tda time=1000]
 [_tb_end_text]
 
-[playbgm  volume="60"  time="200"  loop="true"  storage="温もり.ogg"  fadein="false"  ]
+[playbgm  volume="60"  time="200"  loop="true"  storage="nukumori.ogg"  fadein="false"  ]
 [jump  storage="Day10_F.ks"  target="*shift"  ]
 *double
 
@@ -95,7 +95,7 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_24"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_24"  ]
 [tb_start_tyrano_code]
 [s_wait time=2000]
 [chara_hide_tda]
@@ -106,7 +106,7 @@
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[bg  time="0"  method="crossfade"  storage="道晴れ.png"  ]
+[bg  time="0"  method="crossfade"  storage="michihare.png"  ]
 [playse  volume="90"  time="1000"  buf="1"  storage="VSQSE_0070_bicycle_pedal_04_slow.ogg"  loop="true"  fadein="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=2000]
@@ -130,7 +130,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_33"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_33"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -140,7 +140,7 @@
 [s_wait time=1800]
 [_tb_end_tyrano_code]
 
-[bg  time="0"  method="crossfade"  storage="どこここ.png"  ]
+[bg  time="0"  method="crossfade"  storage="dokokoko.png"  ]
 [playse  volume="70"  time="1000"  buf="0"  storage="VSQSE_0607_bicycle_brake.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=1500]
@@ -343,7 +343,7 @@
 [tb_start_tyrano_code]
 [fadeoutbgm time=1000]
 @layopt layer=1 visible=true
-[image storage="../bgimage/目隠し黒.png" layer=1 time=1000]
+[image storage="../bgimage/mekakushikuro.png" layer=1 time=1000]
 [s_wait time=500]
 [image storage="../bgimage/tda6-1.png" layer=1 time=1000]
 [s_wait time=2000]

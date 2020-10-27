@@ -4,7 +4,7 @@
 [tb_clear_images]
 
 [tb_hide_message_window  ]
-[bg  time="0"  method="crossfade"  storage="タイトル背景.png"  ]
+[bg  time="0"  method="crossfade"  storage="taitoruhaikei.png"  ]
 [tb_start_tyrano_code]
 [iscript]
 // チェック画像の座標
@@ -13,12 +13,12 @@ tf.c_y = [50, 100, 170, 220, 290, 340, 410, 480];
 [endscript]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="0"  storage="default/ENDING文字.png"  name="img_3"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/ENDINGmoji.png"  name="img_3"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [if exp="sf.KendA=='true' && sf.KendB=='true' &&sf.TendA=='true' && sf.TendB=='true' && sf.OendA=='true' && sf.OendB=='true' && sf.Bend=='true' && sf.Mend=='true'"]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="0"  storage="default/ENDINGコンプ.png"  name="img_3"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/ENDINGkonpu.png"  name="img_3"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [endif]
 [_tb_end_tyrano_code]

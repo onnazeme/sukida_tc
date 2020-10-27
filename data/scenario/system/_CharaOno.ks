@@ -1,2 +1,2 @@
-[preload  storage="./data/fgimage/default/Edit小野寺1.png"  ]
+[preload  storage="./data/fgimage/default/EditOnodera1.png"  ]
 [return]

@@ -1,2 +1,2 @@
-[preload  storage="./data/bgimage/文化祭2.png"  ]
+[preload  storage="./data/bgimage/bunkasai2.png"  ]
 [return]

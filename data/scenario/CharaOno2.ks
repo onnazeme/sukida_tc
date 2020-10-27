@@ -22,7 +22,7 @@ tf.num_body=5;
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="200"  storage="default/Edit小野寺2.png"  width="960"  height="640"  ]
+[tb_image_show  time="200"  storage="default/EditOnodera2.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide name=ono2 time=100]
 [chara_part_reset name=ono2]

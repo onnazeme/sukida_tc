@@ -4,7 +4,7 @@
 
 [tb_show_message_window  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
-[bg  time="1000"  method="crossfade"  storage="廊下晴れモブ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="roukaharemobu.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
@@ -76,8 +76,8 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_18"  ]
-[bg  time="0"  method="crossfade"  storage="保健室.png"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_18"  ]
+[bg  time="0"  method="crossfade"  storage="hokenshitsu.png"  ]
 [tb_start_text mode=4 ]
 …………[p]
 [chara_part name=ono2 mouth=1 ase=none eye=2 L=2]

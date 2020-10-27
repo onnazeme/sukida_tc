@@ -36,14 +36,14 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_start_text mode=4 ]
 #
 …………[p]
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="文化祭1.png"  ]
+[bg  time="1000"  method="crossfade"  storage="bunkasai1.png"  ]
 [tb_start_text mode=4 ]
 #女學生B
 ……嗯─離熱音社的表演還有一段時間呢。[r]要去哪？[p]
@@ -73,7 +73,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_start_text mode=4 ]
 #
 ………………[p]
@@ -87,14 +87,14 @@
 
 *onoshift
 
-[bg  time="1000"  method="crossfade"  storage="教室晴れHR.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomhareHR.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="60"  time="200"  loop="true"  storage="温もり.ogg"  fadein="true"  ]
+[playbgm  volume="60"  time="200"  loop="true"  storage="nukumori.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #班導
 各位同學，文化祭辛苦了！[l]請在回家後好好休息吧。[p]
@@ -130,13 +130,13 @@
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="校舎晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="koushahare.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -151,7 +151,7 @@
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="おれんち晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="orenchihare.png"  ]
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-asphalt2.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=2000]

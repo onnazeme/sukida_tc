@@ -11,7 +11,7 @@
 
 @layopt layer=0 visible=true opacity=80
 @layopt layer=1 visible=true
-[image storage="../bgimage/タイトル背景.png" layer=0]
+[image storage="../bgimage/taitoruhaikei.png" layer=0]
 [image storage="../image/cts.png" name=op layer=1 x=350 y=313]
 
 [kanim name=op keyframe="click" time=1400 easing=ease count=infinite]
@@ -28,7 +28,7 @@
 [stopse  time="0"  buf="2"  fadeout="false"  ]
 [stopse  time="0"  buf="3"  fadeout="false"  ]
 [stopse  time="0"  buf="4"  fadeout="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ホリデイ.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="holiday.ogg"  ]
 [tb_start_tyrano_code]
 [if exp="sf.KendA=='true' && sf.KendB=='true' &&sf.TendA=='true' && sf.TendB=='true' && sf.OendA=='true' && sf.OendB=='true' && sf.Bend=='true' && sf.Mend=='true'"]
 [_tb_end_tyrano_code]
@@ -74,8 +74,8 @@
 
 [_tb_end_tyrano_code]
 
-[bg  time="0"  method="crossfade"  storage="タイトル背景.png"  ]
-[tb_image_show  time="0"  storage="/default/ボタンなし帯.png"  ]
+[bg  time="0"  method="crossfade"  storage="taitoruhaikei.png"  ]
+[tb_image_show  time="0"  storage="/default/botannashiobi.png"  ]
 [tb_start_tyrano_code]
 [button graphic="start-1.png" clickse="decision28.ogg" x=103 y=310 target=*start enterimg="start-2.png"]
 

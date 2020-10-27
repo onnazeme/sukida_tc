@@ -10,8 +10,8 @@
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
-[bg  time="0"  method="crossfade"  storage="タイトル背景.png"  ]
-[tb_image_show  time="0"  storage="/default/EXTRA文字.png"  ]
+[bg  time="0"  method="crossfade"  storage="taitoruhaikei.png"  ]
+[tb_image_show  time="0"  storage="/default/EXTRAmoji.png"  ]
 [tb_start_tyrano_code]
 [button graphic="back-1.png" x=87 y=550 storage="title_screen.ks" target=*title enterimg="back-2.png"]
 

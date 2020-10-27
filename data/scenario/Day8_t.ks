@@ -4,7 +4,7 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="Day8_k.ks"  target="*start"  cond="f.tsuda<3"  ]
-[bg  time="100"  method="crossfade"  storage="教室晴れ会議.png"  ]
+[bg  time="100"  method="crossfade"  storage="classroomharekaigi.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 [chara_show name=tda top=20 left=220 time=0]

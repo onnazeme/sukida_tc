@@ -1,3 +1,3 @@
-[preload  storage="./data/bgimage/目隠し黒.png"  ]
-[preload  storage="./data/bgimage/教室雨モブ.png"  ]
+[preload  storage="./data/bgimage/mekakushikuro.png"  ]
+[preload  storage="./data/bgimage/classroomamemobu.png"  ]
 [return]

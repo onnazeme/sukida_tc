@@ -10,7 +10,7 @@
 
 [playse  volume="60"  time="1000"  buf="2"  storage="class_door2.ogg"  fadein="false"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="卓ゲ部.png"  ]
+[bg  time="1000"  method="crossfade"  storage="takugebu.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -20,7 +20,7 @@
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="100"  time="0"  loop="true"  storage="Mad_Chase!!.ogg"  fadein="true"  ]
+[playbgm  volume="100"  time="500"  loop="true"  storage="Mad_Chase!!.ogg"  fadein="true"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [tb_start_text mode=4 ]
 #桌遊社社員A
@@ -102,13 +102,13 @@
 #
 [_tb_end_text]
 
-[bg  time="1000"  method="fadeInUp"  storage="目隠し黒.png"  cross="true"  ]
+[bg  time="1000"  method="fadeInUp"  storage="mekakushikuro.png"  cross="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 ……………[l]……！[p]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="fadeInDown"  storage="卓ゲ部.png"  cross="true"  ]
+[bg  time="1000"  method="fadeInDown"  storage="takugebu.png"  cross="true"  ]
 [tb_start_text mode=1 ]
 #桌遊社社員A
 ……勝負分曉！！[p]
@@ -136,7 +136,7 @@
 [s_wait time=500]
 [_tb_end_tyrano_code]
 
-[playse  volume="70"  time="1000"  buf="2"  storage="ラボ　拍手.ogg"  ]
+[playse  volume="70"  time="1000"  buf="2"  storage="labo_hakushu.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -257,7 +257,7 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="City_Ambi-Street01-2_re.ogg"  loop="true"  fadein="true"  ]
-[playse  volume="30"  time="200"  buf="2"  storage="ラボ　拍手.ogg"  fadein="true"  ]
+[playse  volume="30"  time="200"  buf="2"  storage="labo_hakushu.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #桌遊社社員A
 [emb exp="f.name"]同學……[p]

@@ -4,7 +4,7 @@
 
 [jump  storage="Day8_o.ks"  target="*start"  cond="f.kirishima<3"  ]
 [tb_show_message_window  ]
-[bg  time="100"  method="crossfade"  storage="渡り廊下晴れ.png"  ]
+[bg  time="100"  method="crossfade"  storage="watariroukahare.png"  ]
 [tb_start_tyrano_code]
 [chara_show name=kiri2 top=30 left=240 time=0]
 [chara_part name=kiri2 mouth=3]

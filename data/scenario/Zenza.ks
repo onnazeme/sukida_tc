@@ -8,10 +8,10 @@
 [s_wait time=2000]
 [_tb_end_tyrano_code]
 
-[bg  time="0"  method="crossfade"  storage="目隠し黒.png"  ]
-[bg  time="1000"  method="fadeInUp"  storage="自室1.png"  cross="true"  ]
-[bg  time="500"  method="fadeInDown"  storage="目隠し黒.png"  cross="true"  ]
-[bg  time="1000"  method="fadeInUp"  storage="自室1.png"  cross="true"  ]
+[bg  time="0"  method="crossfade"  storage="mekakushikuro.png"  ]
+[bg  time="1000"  method="fadeInUp"  storage="myroom1.png"  cross="true"  ]
+[bg  time="500"  method="fadeInDown"  storage="mekakushikuro.png"  cross="true"  ]
+[bg  time="1000"  method="fadeInUp"  storage="myroom1.png"  cross="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #媽媽
@@ -27,8 +27,8 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="70"  time="1000"  buf="1"  storage="room_door_C.ogg"  ]
-[bg  time="2000"  method="crossfade"  storage="目隠し黒.png"  ]
-[bg  time="1000"  method="crossfade"  storage="おれんち雨.png"  ]
+[bg  time="2000"  method="crossfade"  storage="mekakushikuro.png"  ]
+[bg  time="1000"  method="crossfade"  storage="orenchiame.png"  ]
 [tb_start_tyrano_code]
 #媽媽
 早。今天一大早就下雨，真希望梅雨季早點結束。[p]
@@ -87,13 +87,13 @@
 
 [playse  volume="100"  time="800"  buf="0"  storage="umbrella_rain1_roop.ogg"  fadein="true"  loop="true"  ]
 [stopse  time="1000"  buf="2"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="通学路雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="tsuugakuroame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=600]
 [_tb_end_tyrano_code]
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-asphalt2.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="駅雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="ekiame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=600]
 [_tb_end_tyrano_code]
@@ -101,7 +101,7 @@
 [stopse  time="1000"  buf="4"  fadeout="true"  ]
 [stopse  time="600"  buf="0"  fadeout="true"  ]
 [playse  volume="60"  time="500"  buf="1"  storage="train-driving1.ogg"  fadein="true"  ]
-[bg  time="1500"  method="fadeInRight"  storage="目隠し黒.png"  cross="true"  ]
+[bg  time="1500"  method="fadeInRight"  storage="mekakushikuro.png"  cross="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=3800]
 [_tb_end_tyrano_code]
@@ -113,7 +113,7 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="umbrella_rain1_roop.ogg"  fadein="true"  loop="true"  ]
-[bg  time="1000"  method="fadeIn"  storage="校舎雨.png"  cross="true"  ]
+[bg  time="1000"  method="fadeIn"  storage="koushaame.png"  cross="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -128,7 +128,7 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="500"  buf="2"  fadein="true"  storage="VSQSE_0609_school_hallway_3.ogg"  loop="true"  ]
-[bg  time="1000"  method="crossfade"  storage="廊下雨モブ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="roukaamemobu.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=500]
 [_tb_end_tyrano_code]
@@ -168,7 +168,7 @@
 
 [playse  volume="80"  time="1000"  buf="1"  storage="down1.ogg"  ]
 [stopse  time="500"  buf="2"  ]
-[tb_image_show  time="800"  storage="/default/目隠し白.png"  name="img_73"  ]
+[tb_image_show  time="800"  storage="/default/mekakushishiro.png"  name="img_73"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -303,7 +303,7 @@
 *common2
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide_tda]
 [_tb_end_tyrano_code]

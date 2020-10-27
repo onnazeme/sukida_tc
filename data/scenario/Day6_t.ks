@@ -5,7 +5,7 @@
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="教室雨試食.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomameshishoku.png"  ]
 [playbgm  volume="100"  time="200"  loop="true"  storage="Break_time_bossa.ogg"  fadein="false"  ]
 [tb_start_text mode=4 ]
 #班長

@@ -4,7 +4,7 @@
 
 [tb_show_message_window  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-asphalt2.ogg"  fadein="false"  ]
-[bg  time="1000"  method="crossfade"  storage="中庭.png"  ]
+[bg  time="1000"  method="crossfade"  storage="nakaniwa.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
@@ -106,7 +106,7 @@
 [s_wait time=200]
 [_tb_end_tyrano_code]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="マイ録音4.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="MYrokuon4.ogg"  ]
 [tb_start_tyrano_code]
 [s_wait time=1500]
 [_tb_end_tyrano_code]

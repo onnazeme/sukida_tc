@@ -5,7 +5,7 @@
 [tb_clear_images]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="200"  storage="default/Edit桐島1.png"  width="960"  height="640"  ]
+[tb_image_show  time="200"  storage="default/EditKirishima1.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [freeimage layer=2]
 [chara_hide name=kiri time=100]

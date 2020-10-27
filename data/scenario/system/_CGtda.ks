@@ -1,2 +1,2 @@
-[preload  storage="./data/fgimage//default/EXTRA文字.png"  ]
+[preload  storage="./data/fgimage//default/EXTRAmoji.png"  ]
 [return]

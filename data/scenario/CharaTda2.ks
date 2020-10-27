@@ -19,7 +19,7 @@ tf.num_tere=0;
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="200"  storage="default/Edit津田2.png"  width="960"  height="640"  ]
+[tb_image_show  time="200"  storage="default/EditTsuda2.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [chara_hide name=tda time=100]
 [chara_part_reset name=tda]

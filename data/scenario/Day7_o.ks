@@ -13,7 +13,7 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [playse  volume="100"  time="1000"  buf="3"  fadein="true"  storage="rain04.ogg"  loop="true"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="軒下雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="nokishitaame.png"  ]
 [tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_tyrano_code]
@@ -32,7 +32,7 @@
 *rain
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  fadein="false"  ]
-[bg  time="1000"  method="crossfade"  storage="校舎雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="koushaame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=2000]
 [_tb_end_tyrano_code]
@@ -213,7 +213,7 @@
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="300"  buf="0"  fadein="true"  storage="plastic_umbrella_rain2.ogg"  loop="true"  ]
-[bg  time="1000"  method="crossfade"  storage="校舎雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="koushaame.png"  ]
 [stopse  time="500"  buf="3"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #女學生B

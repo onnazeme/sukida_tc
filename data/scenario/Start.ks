@@ -3,7 +3,7 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_clear_images]
 
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_start_tyrano_code]
 ;変数初期化しろって先に言ってよ～！
 [eval exp="f.tsuda=2"]

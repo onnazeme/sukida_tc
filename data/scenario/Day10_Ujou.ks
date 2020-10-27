@@ -8,14 +8,14 @@
 [_tb_end_tyrano_code]
 
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="教室晴れHR.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomhareHR.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="60"  time="200"  loop="true"  storage="温もり.ogg"  fadein="true"  ]
+[playbgm  volume="60"  time="200"  loop="true"  storage="nukumori.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #班導
 各位同學，文化祭辛苦了！[l]請在回家後好好休息吧。[p]
@@ -46,7 +46,7 @@
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [jump  storage="Day10_Ujou.ks"  target="*kiri"  cond="f.Friend==2"  ]
 [jump  storage="Day10_Ujou.ks"  target="*ono"  cond="f.Friend==3"  ]
-[bg  time="1000"  method="crossfade"  storage="廊下晴れモブ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="roukaharemobu.png"  ]
 [tb_start_text mode=4 ]
 [chara_part name="tda" mouth=3]
 [chara_show name="tda" top=20 left=250 time=1000]
@@ -77,7 +77,7 @@
 [jump  storage="Day10_Ujou.ks"  target="*common"  ]
 *kiri
 
-[bg  time="1000"  method="crossfade"  storage="渡り廊下晴れ2.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukahare2.png"  ]
 [tb_start_text mode=4 ]
 [chara_part name=kiri2 mouth=3]
 [chara_show name=kiri2 top=30 left=240 time=1000]
@@ -110,7 +110,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  name="img_26"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  name="img_26"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [chara_hide_kiri2]
@@ -123,7 +123,7 @@
 [jump  storage="Day10_Ujou.ks"  target="*common"  ]
 *ono
 
-[bg  time="1000"  method="crossfade"  storage="軒下晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="nokishitahare.png"  ]
 [tb_start_text mode=4 ]
 [chara_part name=ono2 mouth=3]
 [chara_show name=ono2 top=-5 left=20 time=1000]
@@ -154,7 +154,7 @@
 [_tb_end_text]
 
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [chara_hide_ono2]

@@ -8,7 +8,7 @@
 [stopse  time="0"  buf="2"  fadeout="false"  ]
 [stopse  time="0"  buf="3"  fadeout="false"  ]
 [stopse  time="0"  buf="4"  fadeout="false"  ]
-[bg  time="0"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="0"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_start_tyrano_code]
 [if exp="f.ending==1"]
 [eval exp="sf.TendA='true'"]
@@ -26,12 +26,12 @@
 [elsif exp="f.Tcg=='B'"]
 [image storage="../bgimage/tda2-1.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 [else]
-[image storage="../bgimage/教室晴れモブ.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/classroomharemobu.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 [endif]
 
 [image storage="../bgimage/tda4-2.png" name=img3 width=300 height=200 left=520 top=220 layer=1 time=0]
 
-[image storage="../bgimage/追加tda2v.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/tsuikatda2v.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
 [_tb_end_tyrano_code]
 
 [tb_cg  id="tda8"  ]
@@ -55,12 +55,12 @@
 [elsif exp=" f.Kcg == 'B' "]
 [image storage="../bgimage/kiri3-1.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 [else]
-[image storage="../bgimage/渡り廊下晴れ.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/watariroukahare.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 [endif]
 [image storage="../bgimage/kiri4-1.png" name=img3 width=300 height=200 left=520 top=220 layer=1 time=0]
 
 
-[image storage="../bgimage/追加kiri2.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/tsuikakiri2.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
 
 [_tb_end_tyrano_code]
 
@@ -85,11 +85,11 @@
 [elsif exp="f.Ocg=='B'"]
 [image storage="../bgimage/ono3-2.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 [else]
-[image storage="../bgimage/軒下晴れ.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/nokishitahare.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 [endif]
 [image storage="../bgimage/ono4-2.png" name=img3 width=300 height=200 left=520 top=220 layer=1 time=0]
 
-[image storage="../bgimage/追加ono2.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/tsuikaono2.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
 [_tb_end_tyrano_code]
 
 [tb_cg  id="ono6"  ]
@@ -102,17 +102,17 @@
 
 [_tb_end_tyrano_code]
 
-[playbgm  volume="100"  time="200"  loop="true"  storage="セピアノイズ.ogg"  fadein="false"  ]
+[playbgm  volume="100"  time="200"  loop="true"  storage="SepiaNoise.ogg"  fadein="false"  ]
 [tb_start_tyrano_code]
 @layopt layer=1 visible=true
 
-[image storage="../bgimage/廊下雨モブ.png" name=img1 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/roukaamemobu.png" name=img1 width=300 height=200 left=520 top=220 layer=1 time=0]
 
 [image storage="../bgimage/B1-1.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 
 [image storage="../bgimage/B2.png" name=img3 width=300 height=200 left=520 top=220 layer=1 time=0]
 
-[image storage="../bgimage/追加B2.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/tsuikaB2.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
 [_tb_end_tyrano_code]
 
 [tb_cg  id="B5"  ]
@@ -124,17 +124,17 @@
 
 [_tb_end_tyrano_code]
 
-[playbgm  volume="100"  time="200"  loop="true"  storage="帰り道.ogg"  fadein="false"  ]
+[playbgm  volume="100"  time="200"  loop="true"  storage="kaerimichi.ogg"  fadein="false"  ]
 [tb_start_tyrano_code]
 @layopt layer=1 visible=true
 
-[image storage="../bgimage/校舎晴れ.png" name=img1 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/koushahare.png" name=img1 width=300 height=200 left=520 top=220 layer=1 time=0]
 
-[image storage="../bgimage/教室晴れ勝訴.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/classroomhareshouso.png" name=img2 width=300 height=200 left=520 top=220 layer=1 time=0]
 
-[image storage="../bgimage/文化祭1.png" name=img3 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/bunkasai1.png" name=img3 width=300 height=200 left=520 top=220 layer=1 time=0]
 
-[image storage="../bgimage/自室1.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
+[image storage="../bgimage/myroom1.png" name=img4 width=300 height=200 left=520 top=220 layer=1 time=0]
 
 [endif]
 

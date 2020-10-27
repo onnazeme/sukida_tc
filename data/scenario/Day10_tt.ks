@@ -8,7 +8,7 @@
 [chara_hide_tda]
 [chara_hide_tda2]
 [chara_show name="tda" top=20 left=250 time=0]
-[preload storage="data/bgimage/体育館軽音部.png"]
+[preload storage="data/bgimage/taiikukankeionbu.png"]
 [_tb_end_tyrano_code]
 
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
@@ -31,17 +31,17 @@
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [tb_start_tyrano_code]
 @layopt layer=1 visible=true
-[image storage="../bgimage/体育館軽音部.png" name=1 layer=1 time=1000]
+[image storage="../bgimage/taiikukankeionbu.png" name=1 layer=1 time=1000]
 [_tb_end_tyrano_code]
 
-[playse  volume="90"  time="1000"  buf="0"  storage="青春38きっぷLIVE.ogg"  fadein="true"  loop="true"  ]
+[playse  volume="90"  time="1000"  buf="0"  storage="seishun38kippuLIVE.ogg"  fadein="true"  loop="true"  ]
 [tb_start_tyrano_code]
 …………[p]
 
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[image storage="../bgimage/目隠し黒.png" name=2 layer=1 time=1000]
+[image storage="../bgimage/mekakushikuro.png" name=2 layer=1 time=1000]
 [free layer=1 name=1]
 [_tb_end_tyrano_code]
 
@@ -71,7 +71,7 @@
 #
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  ]
 [tb_start_tyrano_code]
 [chara_hide_tda]

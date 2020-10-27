@@ -3,7 +3,7 @@
 *start
 
 [playse  volume="60"  time="1000"  buf="2"  storage="walk-school1.ogg"  fadein="false"  ]
-[tb_image_show  time="1000"  storage="default/目隠し黒.png"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/mekakushikuro.png"  width="960"  height="640"  ]
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 #女學生A

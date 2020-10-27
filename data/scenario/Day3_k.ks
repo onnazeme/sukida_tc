@@ -5,12 +5,12 @@
 [tb_show_message_window  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="図書室晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="toshoshitsuhare.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=600]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="1000"  storage="/default/本棚.png"  ]
+[tb_image_show  time="1000"  storage="/default/hondana.png"  ]
 [glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《我是異世界最強的龍騎士老太婆，有什麼問題要問我嗎？》"  target="*1"  x="300"  y="220"  width="670"  height="20"  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《殺人百角館》"  target="*2"  x="540"  y="270"  width="400"  height=""  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
 [glink  color="ts02"  storage="Day3_k.ks"  size="20"  text="拿《LOVE&nbsp;SHARK》"  target="*3"  x="570"  y="320"  width="340"  height=""  _clickable_img=""  clickse="DVD-open-2.ogg"  enterse="DVD-open-2-4.ogg"  ]
@@ -72,7 +72,7 @@
 [jump  storage="Day3_k.ks"  target="*common"  ]
 *2
 
-[tb_image_show  time="500"  storage="/default/本棚2.png"  ]
+[tb_image_show  time="500"  storage="/default/hondana2.png"  ]
 [tb_start_text mode=4 ]
 [s_wait time=400]
 #？？

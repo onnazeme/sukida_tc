@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/目隠し黒.png"  ]
-[preload  storage="./data/bgimage/駅雨.png"  ]
-[preload  storage="./data/bgimage/電車内雨png.png"  ]
+[preload  storage="./data/bgimage/mekakushikuro.png"  ]
+[preload  storage="./data/bgimage/ekiame.png"  ]
+[preload  storage="./data/bgimage/denshanaiame.png"  ]
 [return]

@@ -2,11 +2,11 @@
 
 *start
 
-[bg  time="100"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="100"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_eval  exp="f.Days='6月29日(五)'"  name="Days"  cmd="="  op="t"  val="6月29日(五)"  val_2="undefined"  ]
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ご無沙汰のお出かけ的なBGM.ogg"  fadein="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="gobusatanoodekaketekinaBGM.ogg"  fadein="false"  ]
 [playse  volume="100"  time="1000"  buf="1"  fadein="true"  storage="City_Ambi-Street01-2_re.ogg"  loop="true"  ]
 [tb_start_tyrano_code]
 @clearstack
@@ -22,12 +22,12 @@
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 [freeimage layer="2"]
-[image layer="2" visible=true time="0" folder="image" storage="日付下敷き.png"  width="311"  height="66"  x="-130"  y="-8"]
+[image layer="2" visible=true time="0" folder="image" storage="hizukeshitajiki.png"  width="311"  height="66"  x="-130"  y="-8"]
 [ptext layer="2" x="22"  y="11"  size="20"  color="0xfff88f"  time="0"  text="6月29日(五)"  anim="false"]
 
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="文化祭1.png"  ]
+[bg  time="1000"  method="crossfade"  storage="bunkasai1.png"  ]
 [tb_start_text mode=4 ]
 #班導
 各位同學─[l]烹飪時請務必小心別燙[er]

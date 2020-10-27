@@ -3,7 +3,7 @@
 [tb_clear_images]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="0"  storage="/default/EXTRA文字.png"  ]
+[tb_image_show  time="0"  storage="/default/EXTRAmoji.png"  ]
 [tb_start_tyrano_code]
 [chara_hide name=kiri time=100]
 [chara_hide name=kiri2 time=100]
@@ -52,12 +52,12 @@
 
 [tb_cg_image_button  graphic="kiri6-1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="420"  y="192"  _tb_parts_type="cg_image_button"  id="kiri6"   ]
 
-[tb_cg_image_button  graphic="追加kiri1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="60"  y="334"  _tb_parts_type="cg_image_button"  id="kiri7"  ]
+[tb_cg_image_button  graphic="tsuikakiri1.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="60"  y="334"  _tb_parts_type="cg_image_button"  id="kiri7"  ]
 
-[tb_cg_image_button  graphic="追加kiri2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="240"  y="334"  _tb_parts_type="cg_image_button"  id="kiri8"   ]
+[tb_cg_image_button  graphic="tsuikakiri2.png"  storage="system/master_cg.ks"  target=""  role="sleepgame"  no_graphic="&sf._tb_cg_noimage"  time="200"  width="172"  height="114"  x="240"  y="334"  _tb_parts_type="cg_image_button"  id="kiri8"   ]
 
 [tb_start_tyrano_code]
-[button graphic="立ち絵k.png" storage=CharaKiri.ks x=420 y=334]
+[button graphic="tachie_k.png" storage=CharaKiri.ks x=420 y=334]
 [_tb_end_tyrano_code]
 
 [s  ]

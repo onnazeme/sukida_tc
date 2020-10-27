@@ -7,7 +7,7 @@
 [freeimage layer="2"]
 [_tb_end_tyrano_code]
 
-[bg  time="1000"  method="crossfade"  storage="教室晴れHR.png"  ]
+[bg  time="1000"  method="crossfade"  storage="classroomhareHR.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #班導
@@ -38,7 +38,7 @@
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_tyrano_code]
@@ -54,7 +54,7 @@
 
 [tb_eval  exp="f.Days='7月3日(二)'"  name="Days"  cmd="="  op="t"  val="7月3日(二)"  val_2="undefined"  ]
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="渡り廊下晴れ2.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukahare2.png"  ]
 [playse  volume="50"  time="1000"  buf="0"  storage="VSQSE_0609_school_hallway_3.ogg"  fadein="true"  loop="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="City_Ambi-Street01-2_re.ogg"  fadein="true"  loop="true"  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
@@ -83,7 +83,7 @@
 
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="1000"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_tyrano_code]
@@ -98,7 +98,7 @@
 
 [tb_eval  exp="f.Days='7月4日(三)'"  name="Days"  cmd="="  op="t"  val="7月4日(三)"  val_2="undefined"  ]
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="食堂晴れ.png"  ]
+[bg  time="1000"  method="crossfade"  storage="shokudouhare.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="City_Ambi-Street01-2_re.ogg"  fadein="true"  loop="true"  ]
 [tb_start_tyrano_code]
 [chara_part name=kiri2 eye=2]
@@ -130,7 +130,7 @@
 
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="0"  method="crossfade"  storage="目隠し黒.png"  ]
+[bg  time="0"  method="crossfade"  storage="mekakushikuro.png"  ]
 [tb_hide_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_tyrano_code]
@@ -145,7 +145,7 @@
 
 [tb_eval  exp="f.Days='7月5日(四)'"  name="Days"  cmd="="  op="t"  val="7月5日(四)"  val_2="undefined"  ]
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="渡り廊下晴れ2.png"  ]
+[bg  time="1000"  method="crossfade"  storage="watariroukahare2.png"  ]
 [playse  volume="60"  time="1000"  buf="1"  storage="walk-school1.ogg"  ]
 [tb_start_tyrano_code]
 [chara_show name=kiri top=30 left=240 time=1000]
@@ -389,7 +389,7 @@
 [tb_start_tyrano_code]
 [fadeoutbgm time=1000]
 @layopt layer=1 visible=true
-[image storage="../bgimage/目隠し黒.png" layer=1 time=1000]
+[image storage="../bgimage/mekakushikuro.png" layer=1 time=1000]
 [s_wait time=500]
 [image storage="../bgimage/kiri6-1.png" layer=1 time=1000]
 [s_wait time=2000]

@@ -5,7 +5,7 @@
 [tb_show_message_window  ]
 [stopse  time="1000"  buf="4"  fadeout="true"  ]
 [playse  volume="70"  time="1000"  buf="1"  storage="walk-school1.ogg"  fadein="false"  ]
-[bg  time="1000"  method="crossfade"  storage="廊下雨.png"  ]
+[bg  time="1000"  method="crossfade"  storage="roukaame.png"  ]
 [tb_start_tyrano_code]
 [s_wait time=1000]
 [_tb_end_tyrano_code]
