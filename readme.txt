@@ -19,7 +19,7 @@
 
 ■攻略文
 	連結(日文版):　https://salt08.fanbox.cc/posts/1012534
-	連結(繁中版):　
+	連結(繁中版):　http://mikadorin.blog118.fc2.com/blog-entry-287.html
 	※如有中文版的BUG、錯字漏字等問題請在中文攻略下留言。
 
 ■啟動方法
