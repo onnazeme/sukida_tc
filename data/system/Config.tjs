@@ -24,7 +24,7 @@
 ;defaultSeVolume=50
 ;defaultMovieVolume=100
 ;defaultBgmSlotNum=1
-;defaultSoundSlotNum=3
+;defaultSoundSlotNum=5
 ;configVisible=false
 ;configLeft=-1
 ;configTop=-1
