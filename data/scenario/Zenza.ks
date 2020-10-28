@@ -1,5 +1,5 @@
 [_tb_system_call storage=system/_Zenza.ks]
-[l]
+
 [cm  ]
 ;[tb_hide_message_window  ]
 [playse  volume="100"  time="1000"  buf="4"  storage="rain04small.ogg"  fadein="true"  loop="true"  ]
