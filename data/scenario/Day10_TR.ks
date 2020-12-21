@@ -162,7 +162,7 @@
 #男學生B
 ……[emb exp="f.name"]同學真受歡迎……[p]
 #男學生A
-因為是[emb exp="f.name"]同學啊……
+因為是[emb exp="f.name"]同學啊……[p]
 [endif]
 [chara_part name=tda mouth=1]
 #津田
